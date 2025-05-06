@@ -1,0 +1,153 @@
+== Start ==
+ST	Start Transaction
+FT	Finish Transaction
+
+=== REGISTER TRANSACTION ===
+STRR	Start Transaction Request Registration
+RRS	Register Request Sender
+RRR	Register Request Receiver
+RRD	Register Request Details
+FTRR	Finish Transaction Request Registration
+
+=== SENDER AUTHENTIFICATION ===
+SSA	Start Sender Authentification
+CSBID	Check Sender Bank ID
+CSPID	Check Sender Personal ID 
+RBID	Request Bank ID
+GBID	Generate Bank ID
+LCSH	Low Check Sender Historial
+LCSP	Low Check Sender Profile
+ABID	Activate Bank ID
+SCUC	Start Check Unknown Client
+HCSH	High Check Sender Historial
+HCSP	High Check Sender Profile
+NSA	Notify Sender to Authority
+FCUC	Finish Check Unknown Client
+RNC	Register New Client
+ROC	Register Old Client
+FSA	Finish Sender Authentification
+
+=== PAYMENT PROCESSING ===
+SPP	Start Payment Processing
+FPP	Finish Payment Processing
+
+=== CASH PAYMENT PROCESSING ===
+SCPP	Start Cash Payment Processing
+CC	Collect Cash
+AC	Autenticate Cash
+CBSN	Check Bank Serial Numbers
+CIBSN	Check Inter-Bank Serial Numbers
+CASN	Check Authority Serial Numbers
+CPC	Count and Pack Cash
+ECRR	Emit Cash Received Receipt
+CCRA	Communicate Cash Receipt Authorities
+RCCP	Register and Close Cash Payment
+FCPP	Finish Cash Payment Processing
+
+
+=== ACCOUNT PAYMENT PROCESSING ===
+SAPP	Start Account Payment Processing
+SAV	Start Account Verification
+BAV	Bank Account Verification
+AAV	Authorities Account Verification
+FAV	Finish Account Verification
+RAP	Request Account Payment
+CAPR	Check Account Payment Request
+URAC	Update Request Account Payment
+ARAP	Accept Request Account Payment
+PBAP	Process and Block Account Payment
+EAPR	Emit Account Payment Receipt
+CAPA	Communicate Account Payment Authorities
+RCAP	Register and Close Account Payment
+FAPP	Finish Account Payment Processing
+
+
+=== CHEQUE PAYMENT PROCESSING ===
+SCHPP	Start Cheque Payment Processing
+CCH	Collect Cheque
+MCA	Manual Cheque Authentification
+ACA	Automatic Check Authentification
+SCHC	Start Cheque Checking
+CBCHSN	Check Bank Cheque Serial Numbers
+CIBCHSN	Check Inter-Bank Cheque Serial Numbers
+CACHSN	Check Authority Cheque Serial Numbers
+FCHC	Finish Cheque Checking
+PCH	Process Cheque
+ECHRR	Emit Cheque Received Receipt
+RCH	Register Cheque
+CCHRA	Communicate Cheque Receipt Authorities
+FCHPP	Finish Cheque Payment Processing
+
+
+=== RECEIVER PROCESSING ===
+SRP	Start Receiver Processing
+SRPP	Start Receiver Pre Profiling
+RBPC	Receiver Bank Profiling Checking
+RIBPC	Receiver Inter-Bank Profiling Checking 
+REPC	Receiver External Profiling Checking 
+FRPP	Finish Receiver Pre Profiling
+REPP	Request Extra Pre Profiling
+EPP	Evaluate Pre Profiling
+FRP	Finish Receiver Processing
+
+=== LOW RISK RECEIVER PROCESSING ===
+SLRRP	Start Low Risk Receiver Processing
+LRIRV	Low Risk Internal Receiver Verification
+LRERV	Low Risk External Receiver Verification
+LRRR	Low Risk Receiver Register
+FLRRP	Finish Low Risk Receiver Processing
+
+
+=== HIGH RISK RECEIVER PROCESSING ===
+SHRRP	Start High Risk Receiver Processing
+SHRRPC	Start High Risk Receiver Profile Check
+AHRRPC	Automatic High Risk Receiver Profile Check
+MHRRPC	Manual High Risk Receiver Profile Check
+FHRRPC	Finish High Risk Receiver Profile Check	
+RHRRPC	Request High Risk Receiver Profile Check
+HRHA	High Risk Historial Analysis
+HRRAN	High Risk Receiver Authority Notification
+HRRR	High Risk Receiver Register
+FHRRP	Finish High Risk Receiver Processing
+
+=== TRANSFER ===
+STT	Start Transfer Transaction
+SIT	Start Internal Transfer
+CIT	Check Internal Transfer
+RIT	Restart Internal Transfer
+RGIT	Register Internal Transfer
+FIT	Finish Internal Transfer
+SET	Start External Transfer
+CDD	Check Destiny Disponibility
+DND	Destiny Not Disponible
+ET	External Transfer
+CET	Check External Transfer
+RET	Restart External Transfer
+RGET	Register External Transfer
+FET	Finish External Transfer
+FTT	Finish Transfer Transaction
+
+=== NOTIFICATION, RECEIPT AND REGISTER ===
+SC	Start Closing
+SRCP	Start Receipt Processing
+ER	Electronic Receipt
+ESR	Electronic Sending Receipt
+PR	Paper Receipt
+GPR	Generate Paper Receipt
+FRCP	Finish Receipt Processing
+RTC	Register Transfer Closing
+RATC	Report and Annotate Transition Closing
+NATC	Notify Authority Transfer Closing
+FC	Finish Closing
+
+
+
+
+
+
+
+
+
+
+
+
